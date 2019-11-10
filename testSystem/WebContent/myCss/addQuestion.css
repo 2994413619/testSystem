@@ -1,0 +1,31 @@
+body{
+	background-color: #EEEFF1;
+}
+#testMyselfTypeDiv{
+	min-height: 548px;
+	padding-top: 74px;
+	padding-bottom: 74px;
+	text-align: center;
+}
+.createDiv{
+	background-color: white;
+	color: #2672FF;
+	
+	width: 200px;
+	height: 400px;
+	display: inline-block;
+	
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px #dcdcdc;
+	cursor: pointer;
+	
+	margin: 10px;
+}
+.createDiv:hover{
+	box-shadow: 0px 0px 6px blue;
+}
+.createDiv>div{
+	display: block;
+	width: 200px;
+	margin-top: 100px;
+}
